@@ -1,0 +1,16 @@
+<svg width="1000.000000" height="1000.000000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip291_1">
+			<rect id="фрейм 19" width="1000.000000" height="1000.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="фрейм 19" width="1000.000000" height="1000.000000" fill="#282828" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip291_1)">
+		<circle id="Эллипс 12" cx="453.000000" cy="705.999939" r="119.000000" fill="#1B1B1B" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 22" x="488.000000" y="281.999939" width="84.000000" height="428.000000" fill="#1B1B1B" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 22" x="542.886230" y="345.400574" width="84.000000" height="165.000000" transform="rotate(-130.799 542.886230 345.400574)" fill="#1B1B1B" fill-opacity="1.000000"/>
+	</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="100.000000" height="100.000000" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip40_7">
+			<rect id="фрейм 26" width="100.000000" height="100.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="фрейм 26" width="100.000000" height="100.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip40_7)">
+		<path id="Убрать верхний слой" d="M47 30L79 30L79 37L49 37C39.3242 37 31.2532 43.871 29.4001 53L22.0789 53C23.0977 40.128 33.8662 30 47 30ZM72.3699 47C70.1497 55.6262 62.3191 62 53 62L32 62L22 62L22 70L54 70C67.1338 70 77.9023 59.872 78.9211 47L72.3699 47Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<circle id="Эллипс 17" cx="22.000000" cy="67.000000" r="1.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 32" x="75.097412" y="25.000000" width="12.789912" height="4.263305" transform="rotate(45.2349 75.097412 25.000000)" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 32" x="84.130127" y="33.991943" width="12.789914" height="4.263304" transform="rotate(135.235 84.130127 33.991943)" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 32" width="12.839970" height="4.279990" transform="matrix(-0.709999 0.704202 0.71 0.704202 25.1165 57)" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Прямоугольник 32" width="12.839970" height="4.279990" transform="matrix(0.71 0.704202 0.709999 -0.704202 16.0483 66.0271)" fill="#FFFFFF" fill-opacity="1.000000"/>
+	</g>
+</svg>

@@ -1,0 +1,260 @@
+
+.TextBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: Inter;
+
+    background-color: rgb(125, 125, 125);
+    height: 100vh;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100%;
+    height: 100vh;
+
+    padding-bottom: 30vh;
+
+    border-radius: 0px;
+
+    background-color: rgba(177, 177, 177, 0.114);
+}
+
+.controlAndInfo {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: row;
+    padding: 15px;
+    overflow: hidden;
+
+    /* background-color: rgba(0, 0, 0, 0.507); */
+    /* background-color: rgba(0, 0, 0, 0.285); */
+    background-color: rgba(177, 177, 177, 0.114);
+}
+
+
+
+
+
+.content h1 {
+    padding: 15px;
+}
+
+
+
+.clos-button {
+    background-color: #ffffff47;
+    border-radius: 100px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+
+.clos {
+    padding: 10px;
+}
+
+
+.clos h2 {
+    padding: 10px;
+}
+
+
+
+/* .img {
+    box-shadow: #ffffff7d 6px 6px 70px 4px;
+} */
+
+
+
+
+.alibom_img {
+    border-radius: 10px;
+    box-shadow: #ffffff7d 0px 25px 55px 5px;
+    width: 400px;
+}
+
+
+/* 
+.alibom_img {
+    border-radius: 10px;
+    /* box-shadow: #ffffff7d 0px 25px 55px 5px; 
+    width: 400px;
+    z-index: 1;
+    position: absolute;
+}
+
+.alibom_img_blur {
+    border-radius: 10px;
+    /* box-shadow: #ffffff7d 0px 25px 55px 5px; 
+
+    filter: blur(15px);
+    z-index: 0;
+    position: absolute;
+    border-radius: 7px;
+
+    width: 430px;
+    z-index: 1;
+} */
+
+
+
+
+
+
+.content .Text {
+    width: 45%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+
+.stroka {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+.time_line {
+    font-size: 16px;
+    color: #7b7b7b;
+}
+
+
+
+
+.controlAndInfo span {
+    font-size: 16px;
+}
+
+.close {
+    background: none;
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+    .alibom_img {
+        display: none;
+    }
+
+    .content .Text {
+        width: 100%;
+        padding: 20px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        height: 82vh;
+
+        /* padding-bottom: 25vh; */
+    }
+
+    
+    .alibom_img {
+
+        display: none;
+
+        border-radius: 10px;
+        /* box-shadow: #ffffff7d 0px 25px 55px 5px; */
+        width: 300px;
+    }
+
+    .TextBox {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        font-family: Inter;
+        background-color: rgb(125, 125, 125);
+        height: 100vh;
+    }
+
+    .content .Text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .stroka {
+        color: #ffffffd2;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        /* padding-bottom: 25vh; */
+    }
+
+    
+    .alibom_img {
+
+        display: none;
+
+        border-radius: 10px;
+        /* box-shadow: #ffffff7d 0px 25px 55px 5px; */
+        width: 300px;
+    }
+
+    .content .Text {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .stroka {
+        color: #ffffff;
+        color: #ffffffdb;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+}

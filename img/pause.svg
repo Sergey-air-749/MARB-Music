@@ -1,0 +1,14 @@
+<svg width="100.000000" height="100.000000" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip290_6">
+			<rect id="фрейм 18" width="100.000000" height="100.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="фрейм 18" width="100.000000" height="100.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip290_6)">
+		<path id="Многоугольник 1" d="M73 48.76L39.25 29.28C37.91 28.51 36.25 29.47 36.25 31.01L36.25 69.98C36.25 71.52 37.91 72.48 39.25 71.71L73 52.23C74.33 51.46 74.33 49.53 73 48.76Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

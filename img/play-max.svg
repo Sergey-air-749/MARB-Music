@@ -1,0 +1,14 @@
+<svg width="200.000000" height="200.000000" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip30_12">
+			<rect id="фрейм 24" width="200.000000" height="200.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="фрейм 24" width="200.000000" height="200.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip30_12)">
+		<path id="Убрать верхний слой" d="M200 100C200 155.178 155.178 200 100 200C44.8216 200 0 155.178 0 100C0 44.8216 44.8216 0 100 0C155.178 0 200 44.8216 200 100ZM70 58L93 58C94.1046 58 95 58.8954 95 60L95 140C95 141.105 94.1046 142 93 142L70 142C68.8954 142 68 141.105 68 140L68 60C68 58.8954 68.8954 58 70 58ZM130 58L107 58C105.895 58 105 58.8954 105 60L105 140C105 141.105 105.895 142 107 142L130 142C131.105 142 132 141.105 132 140L132 60C132 58.8954 131.105 58 130 58Z" clip-rule="evenodd" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

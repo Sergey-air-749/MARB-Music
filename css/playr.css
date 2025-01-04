@@ -1,0 +1,365 @@
+
+footer {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    bottom: 15px;
+}
+
+.footer {
+    width: 50%;
+    /* background-color: #363636a3; */
+
+    background-color: #000000a3;
+    border: 1.5px solid #515151a3;
+    border-top: none;
+
+
+    backdrop-filter: blur(10px);
+    padding: 10px 10px;
+    /* border-radius: 12px; */
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playr_img{
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+
+
+
+.time {
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* border-radius: 300px; */
+    border-radius: 300px 300px 0px 0px;
+    width: 50%;
+}
+
+.play_pause {
+    width: 40px;
+}
+
+.Text {
+    width: 40px;
+}
+
+
+.trak-info {
+    display: flex;
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.time {
+    /* width: 90%; */
+    height: 10px;
+    appearance: none;
+    background: #353535;
+    outline: none;
+    /* border-radius: 500px; */
+    overflow: hidden;
+}
+  
+.time:hover {
+    /* background: #c4c4c4; */
+}
+
+  
+.time::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #0091ff;
+    /* border-radius: 50%; */
+
+    /* border: 5px solid #0091ff;
+    box-shadow: -425px 0 0 400px #0091ff; */
+
+    border: 5px solid #0091ff;
+    box-shadow: -405px 0 0 400px #0091ff;
+
+
+    cursor: pointer;
+}
+
+
+.text span {
+    color: #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.playr-box {
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+.playr-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controlPlayr {
+    display: flex;
+    justify-content: end;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    width: 100%;
+}
+
+.controlPlayr button {
+    padding: 10px;
+}
+
+
+.playr-play-pause {
+    padding-top: 20px;
+}
+
+
+.covers .cover-orign {
+    border-radius: 7px;
+    width: 330px;
+    display: block;
+
+    z-index: 1;
+}
+
+.audio_after_playr {
+    color: #ffffffa7;
+    font-weight: 700;
+}
+
+.playr-play-pause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.playr-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.playr {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+
+
+.playr-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.playr-info .audio_name_share {
+    background: none;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Text-playr {
+    width: 60px;
+}
+
+.play_pause_playr {
+    width: 60px;
+}
+
+.play_pause_playr {
+    width: 60px;
+}
+
+
+
+
+
+.time-max {
+    height: 10px;
+    appearance: none;
+    background: #efefef;
+    outline: none;
+    overflow: hidden;
+
+    border-radius: 300px;
+    width: 100%;
+}
+  
+.time-max::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #0091ff;
+
+    border: 5px solid #0091ff;
+    box-shadow: -405px 0 0 400px #0091ff;
+
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .covers .cover-blur {
+    width: 235px;
+
+    filter: blur(15px);
+    z-index: 0;
+    position: absolute;
+    border-radius: 7px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .time {
+        width: 80%;
+    }
+
+    .footer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    footer {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    .footer {
+        /* background-color: #363636a3; */
+        background-color: #000000a3;
+        border: none;
+        backdrop-filter: blur(10px);
+
+        padding: 15px;
+        width: 100%;
+
+        border-radius: 0px;
+
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .time {
+        border-radius: 0px;
+        width: 100%;
+    }
+}
