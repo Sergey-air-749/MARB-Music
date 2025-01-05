@@ -23,6 +23,7 @@ function PlayrClose() {
 function getAudio() {
     document.getElementById('big-playr').style.backgroundColor = localStorage.getItem('alibom_color');
     document.getElementById('cover-img').src = localStorage.getItem('audio_icon_max');
+    document.getElementById('cover-img-Two').src = localStorage.getItem('audio_icon_max');
 
     document.getElementById('trek_name').innerHTML = localStorage.getItem('audio_name');
     document.getElementById('trek_ispolniteli').innerHTML = localStorage.getItem('audio_after');
