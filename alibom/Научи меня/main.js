@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/НаучиМеня (Пользовательское).jpg';
-let icon_max = '/music.marb.com/img/НаучиМеня.jpg';
+let icon = '/img/НаучиМеня (Пользовательское).jpg';
+let icon_max = '/img/НаучиМеня.jpg';
 audio_after.innerHTML = 'YUNGWAY'
 let alibom_name = 'Научи меня'
 
@@ -51,7 +51,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/YUNGWAY/f267d6e29df698306c660508875c1a059d1b044bf7186358671085d3880f51ca.mp3';
+    document.getElementById('playr').src = '/music/YUNGWAY/f267d6e29df698306c660508875c1a059d1b044bf7186358671085d3880f51ca.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Научи меня'

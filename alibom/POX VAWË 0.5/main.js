@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/100x100 (3).jpg';
-let icon_max = '/music.marb.com/img/m1000x1000 (1).jpg';
+let icon = '/img/100x100 (3).jpg';
+let icon_max = '/img/m1000x1000 (1).jpg';
 audio_after.innerHTML = 'OG Buda'
 let alibom_name = 'POX VAWË 0.5'
 
@@ -50,7 +50,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/OG Buda/23115.mp3';
+    document.getElementById('playr').src = '/music/OG Buda/23115.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Из-за К...'

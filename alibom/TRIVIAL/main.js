@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/m1000x1000 (28) (Пользовательское).jpeg';
-let icon_max = '/music.marb.com/img/m1000x1000.jpg"';
+let icon = '/img/m1000x1000 (28) (Пользовательское).jpeg';
+let icon_max = '/img/m1000x1000.jpg"';
 audio_after.innerHTML = 'Kai Angel, 9mice'
 let alibom_name = 'TRIVIAL'
 
@@ -51,7 +51,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/Kai Angel 9mice/18031.mp3';
+    document.getElementById('playr').src = '/music/Kai Angel 9mice/18031.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = '*** TRIVIAL'

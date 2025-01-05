@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png';
-let icon_max = '/music.marb.com/img/377dc37df17523873990506e560f6e7b.1000x1000x1.png';
+let icon = '/img/377dc37df17523873990506e560f6e7b.1000x1000x1 (1) (Пользовательское).png';
+let icon_max = '/img/377dc37df17523873990506e560f6e7b.1000x1000x1.png';
 audio_after.innerHTML = 'FACE'
 let alibom_name = 'Жизнь удалась'
 
@@ -36,7 +36,7 @@ let alibom_name = 'Жизнь удалась'
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Malenkaya_telka_72787655 (3).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Маленькая тёлка'
@@ -57,7 +57,7 @@ function music_1() {
 
 
 function music_2() {
-    document.getElementById('playr').src = '/music.marb.com/music/FACE/FACE_-_Plachu_72787656 (1).mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Plachu_72787656 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Плачу'
@@ -76,7 +76,7 @@ function music_2() {
 
 
 function music_3() {
-    document.getElementById('playr').src = '/music.marb.com/music/FACE/FACE_-_V_novykh_adikakh_72787657 (1).mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_V_novykh_adikakh_72787657 (1).mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'В новых адиках'
@@ -95,7 +95,7 @@ function music_3() {
 
 
 function music_4() {
-    document.getElementById('playr').src = '/music.marb.com/music/FACE/FACE_-_Rjejjman_71984254.mp3';
+    document.getElementById('playr').src = '/music/FACE/FACE_-_Rjejjman_71984254.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Рэйман'

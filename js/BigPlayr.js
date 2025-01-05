@@ -33,11 +33,11 @@ function getAudio() {
 function povtor() {
     if (audio3.loop == true) {
 
-        document.getElementById('povtor').src = '/music.marb.com/img/povtor.svg'
+        document.getElementById('povtor').src = '/img/povtor.svg'
         audio3.loop = false
     } else {
 
-        document.getElementById('povtor').src = '/music.marb.com/img/povtor_on.svg'
+        document.getElementById('povtor').src = '/img/povtor_on.svg'
         audio3.loop = true
     }
 }

@@ -8,7 +8,7 @@ const audio_after_S = document.getElementById('audio_after');
 
 
 if (localStorage.getItem('playr') == null) {
-    document.getElementById('playr_img').src = '/music.marb.com/img/notaudio.svg'
+    document.getElementById('playr_img').src = '/img/notaudio.svg'
     audio_name_S.innerHTML = 'Нет данных'
 } else {
     document.getElementById('playr').src = localStorage.getItem('playr')
@@ -52,7 +52,7 @@ function pause() {
 
 
 // if (localStorage.getItem('audio_name') == null) {
-//     document.getElementById('Text-img').src = '/music.marb.com/img/Text_off.svg';
+//     document.getElementById('Text-img').src = '/img/Text_off.svg';
 // }
 
 
@@ -66,7 +66,7 @@ function text() {
     
     if (document.getElementById('header').style.display == 'none' || document.getElementById('main').style.display == 'none' || localStorage.getItem('audio_name') == null) {
 
-        document.getElementById('Text-img').src = '/music.marb.com/img/Text.svg';
+        document.getElementById('Text-img').src = '/img/Text.svg';
 
         document.getElementById('header').style.display = 'flex';
         document.getElementById('main').style.display = 'block';
@@ -76,7 +76,7 @@ function text() {
 
     } else if (document.getElementById('header').style.display == 'flex') {
 
-        document.getElementById('Text-img').src = '/music.marb.com/img/Text_on.svg';
+        document.getElementById('Text-img').src = '/img/Text_on.svg';
 
         document.getElementById('header').style.display = 'none';
         document.getElementById('main').style.display = 'none';

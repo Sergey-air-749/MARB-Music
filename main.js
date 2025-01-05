@@ -12,7 +12,7 @@ audio_after.innerHTML = localStorage.getItem('audio_after')
 // const Text_Trek = urlParams.get('Text');
 
 // if (Text_Trek == 1) {
-//     document.getElementById('Text-img').src = '/music.marb.com/img/Text_on.svg';
+//     document.getElementById('Text-img').src = '/img/Text_on.svg';
 
 //     document.getElementById('header').style.display = 'none';
 //     document.getElementById('main').style.display = 'none';
@@ -56,7 +56,7 @@ function pause() {
 
 //     if (document.getElementById('header').style.display == 'none') {
 
-//         document.getElementById('Text-img').src = '/music.marb.com/img/Text.svg';
+//         document.getElementById('Text-img').src = '/img/Text.svg';
 
 //         document.getElementById('header').style.display = 'flex';
 //         document.getElementById('main').style.display = 'block';
@@ -66,7 +66,7 @@ function pause() {
 
 //     } else if (document.getElementById('header').style.display == 'flex') {
 
-//         document.getElementById('Text-img').src = '/music.marb.com/img/Text_on.svg';
+//         document.getElementById('Text-img').src = '/img/Text_on.svg';
 
 //         document.getElementById('header').style.display = 'none';
 //         document.getElementById('main').style.display = 'none';

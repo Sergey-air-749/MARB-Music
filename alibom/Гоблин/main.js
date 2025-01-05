@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/100x100.jpg';
-let icon_max = '/music.marb.com/img/m1000x1000 (100).jpg'
+let icon = '/img/100x100.jpg';
+let icon_max = '/img/m1000x1000 (100).jpg'
 audio_after.innerHTML = 'Платина'
 let alibom_name = 'Гоблин'
 
@@ -47,7 +47,7 @@ function share() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/Платина/22759.mp3';
+    document.getElementById('playr').src = '/music/Платина/22759.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Гоблин'

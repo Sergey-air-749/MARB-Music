@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/m1000x1000 (Пользовательское).jpeg';
-let icon_max = '/music.marb.com/img/m1000x1000.jpeg';
+let icon = '/img/m1000x1000 (Пользовательское).jpeg';
+let icon_max = '/img/m1000x1000.jpeg';
 audio_after.innerHTML = 'Платина'
 let alibom_name = 'Sosa Muzik'
 
@@ -55,7 +55,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/Платина/Platina_-_liga_la_sosa_73090035.mp3';
+    document.getElementById('playr').src = '/music/Платина/Platina_-_liga_la_sosa_73090035.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'liga la sosa'

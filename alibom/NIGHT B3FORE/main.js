@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/m1000x1000 (Пользовательское).png';
-let icon_max = '/music.marb.com/img/m1000x1000.png';
+let icon = '/img/m1000x1000 (Пользовательское).png';
+let icon_max = '/img/m1000x1000.png';
 audio_after.innerHTML = '3TERNITY'
 let alibom_name = 'NIGHT B3FORE'
 
@@ -54,7 +54,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/7ebd7eb223b3d2e9cdea0da8dce16744677c168954a9421f2182cf273b7501f0.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/7ebd7eb223b3d2e9cdea0da8dce16744677c168954a9421f2182cf273b7501f0.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Купе'
@@ -72,7 +72,7 @@ function music_1() {
 }
 
 function music_2() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/18867.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/18867.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Лекарство'
@@ -90,7 +90,7 @@ function music_2() {
 }
 
 function music_3() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/b9fdfa12cf32d63177f443d7e24f73058538e283bdb371947b5a8cd3047dadf0.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/b9fdfa12cf32d63177f443d7e24f73058538e283bdb371947b5a8cd3047dadf0.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'PLACEBO'
@@ -109,7 +109,7 @@ function music_3() {
 
 
 function music_4() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/9b34cbc072ce7cfb9b12dbbd157e60c2fa1a898298d0aaebcba4173a5fb9d6d6.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/9b34cbc072ce7cfb9b12dbbd157e60c2fa1a898298d0aaebcba4173a5fb9d6d6.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Навсегда'

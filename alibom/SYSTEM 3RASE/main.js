@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/100x100 (1).jpg';
-let icon_max = '/music.marb.com/img/m1000x1000.jpg';
+let icon = '/img/100x100 (1).jpg';
+let icon_max = '/img/m1000x1000.jpg';
 audio_after.innerHTML = '3TERNITY'
 let alibom_name = 'SYSTEM 3RASE'
 
@@ -52,7 +52,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/МЫСЛИ.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/МЫСЛИ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'МЫСЛИ (Intro)'
@@ -70,7 +70,7 @@ function music_1() {
 }
 
 function music_2() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/ФИТИЛЬ.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/ФИТИЛЬ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ФИТИЛЬ'
@@ -88,7 +88,7 @@ function music_2() {
 }
 
 function music_3() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/КРИК.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/КРИК.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'КРИК'
@@ -107,7 +107,7 @@ function music_3() {
 
 
 function music_4() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/ОГОНЬ И ВОДА.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/ОГОНЬ И ВОДА.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ОГОНЬ И ВОДА'
@@ -125,7 +125,7 @@ function music_4() {
 }
 
 function music_5() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/МАГИЯ.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/МАГИЯ.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'МАГИЯ'
@@ -143,7 +143,7 @@ function music_5() {
 }
 
 function music_6() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/Кипит кровь.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/Кипит кровь.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Кипит кровь'

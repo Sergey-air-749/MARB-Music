@@ -4,8 +4,8 @@ const audio_name = document.getElementById('audio_name');
 const audio_after = document.getElementById('audio_after');
 
 
-let icon = '/music.marb.com/img/m1000x1000Крем (Пользовательское).jpeg';
-let icon_max = '/music.marb.com/img/m1000x1000Крем.png';
+let icon = '/img/m1000x1000Крем (Пользовательское).jpeg';
+let icon_max = '/img/m1000x1000Крем.png';
 audio_after.innerHTML = '3TERNITY, хочуспать'
 let alibom_name = 'Крем'
 
@@ -51,7 +51,7 @@ function color() {
 
 
 function music_1() {
-    document.getElementById('playr').src = '/music.marb.com/music/3TERNITY/26731.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/26731.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'Крем'

@@ -9,7 +9,7 @@ document.getElementById('alibom_img').src = localStorage.getItem('audio_icon_max
 let content = ''
 
 async function getResponse() {
-    let response = await fetch('/music.marb.com/Text/' + localStorage.getItem('audio_name') + '.json')
+    let response = await fetch('/Text/' + localStorage.getItem('audio_name') + '.json')
     content = await response.json()
 
     document.getElementById('full-Text').value = JSON.stringify(content);
@@ -19,7 +19,7 @@ async function getResponse() {
 }
 
 function RESstatus() {
-    fetch('/music.marb.com/Text/' + localStorage.getItem('audio_name') + '.json').then(response => {
+    fetch('/Text/' + localStorage.getItem('audio_name') + '.json').then(response => {
 
         if (response.status == 200) {
             console.log(response.status)
@@ -33,7 +33,7 @@ function RESstatus() {
 
 function closeText() {
 
-    document.getElementById('Text-img').src = '/music.marb.com/img/Text.svg';
+    document.getElementById('Text-img').src = '/img/Text.svg';
 
     document.getElementById('header').style.display = 'flex';
     document.getElementById('main').style.display = 'block';
