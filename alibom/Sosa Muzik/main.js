@@ -42,7 +42,7 @@ function share() {
 
     const shareData = {
         title: "MARB Music",
-        text: "Поделиться Ссылкой на альбом",
+        text: "",
         url: location.href,
     };
 
