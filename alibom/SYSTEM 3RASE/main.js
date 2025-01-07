@@ -70,7 +70,7 @@ function music_1() {
 }
 
 function music_2() {
-    document.getElementById('playr').src = '/music/3TERNITY/ФИТИЛЬ.mp3';
+    document.getElementById('playr').src = '/music/3TERNITY/30335.mp3';
     document.getElementById('playr_img').src = icon;
 
     audio_name.innerHTML = 'ФИТИЛЬ'
